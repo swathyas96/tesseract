@@ -31,7 +31,7 @@ if condition:
                 with col1:
                     st.image(image)
                 with col2:    
-                    text = pytesseract.image_to_string(image, lang="mal")
+                    text = pytesseract.image_to_string(image, lang="eng")
                     st.text(text)
 
         else:
